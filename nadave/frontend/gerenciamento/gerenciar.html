@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Usuários</title>
+    <link rel="stylesheet" href="gerenciar.css">
+    <script>
+        function toggleLogout() {
+            var logoutButton = document.getElementById('logoutButton');
+            logoutButton.style.display = (logoutButton.style.display === 'none' ? 'block' : 'none');
+        }
+    </script>
+</head>
+<body>
+
+    <body>
+        <div class="header">
+            <img src="img\icone.png" alt="Ícone" onclick="toggleLogout()" style="cursor:pointer;">
+            <button id="logoutButton" style="display:none;">Deslogar</button>
+        </div>
+        <h1>Dados do Formulário</h1>
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Endereço</th>
+                <th>telefone</th>
+                <th>Problema</th>
+                <th>Ações</th>
+            </tr>
+        </table>
+        <div class="button-container">
+            <button onclick="location.href='cadastro.html'">novo</button>
+            <button onclick="location.href='formulario.html'">Editar</button>
+        </div>
+</body>
+</html>

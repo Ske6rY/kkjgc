@@ -1,0 +1,25 @@
+@import url('https://fonts.cdnfonts.com/css/anime-ace');
+body {
+    background-color: antiquewhite;
+}
+.container {
+    margin-top: 50px;
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.151);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.text-center{
+    font-family: 'Anime Ace', sans-serif;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
